@@ -45,7 +45,7 @@
 /* Active Link */
 .active-link,
 .nav__link:hover {
-    color: var(--title-color-dark);
+    color: var(--title-color-red);
 }
 
 /*===================== BREAKPOINTS ======================*/
@@ -97,7 +97,7 @@
     }
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: var(--title-color-red);
     }
 
     .nav__toggle {
