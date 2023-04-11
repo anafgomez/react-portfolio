@@ -1,0 +1,108 @@
+.services__container {
+    grid-template-columns: repeat(2, 280px);
+    justify-content: center;
+    column-gap: 2.5rem;
+}
+
+.services__content {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-origin: var(--container-color);
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.front-end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.back-end {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.services__icon {
+    font-size: 2rem;
+    color: var(--title-color-red);
+    margin-bottom: var(--mb-1);
+}
+
+.services__title {
+    display: flex;
+    justify-content: center;
+    font-size: var(--h3-font-size);
+    margin-bottom: .5rem;
+    font-weight: var(--font-medium);
+}
+
+
+.services__modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--container-color);
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+
+.services__modal-title {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--mb-1);
+}
+
+.services__modal-services {
+    row-gap: 0.75rem;
+}
+
+.services__modal-service {
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+}
+
+.services__modal-icon {
+    color: var(--title-color-red);
+    font-size: 1.2rem;
+}
+
+.services__modal-info {
+    font-size: var(--small-font-size);
+}
+
+/*===================== BREAKPOINTS ======================*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .services__container {
+        grid-template-columns: repeat(2, 280px);
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .services__container {
+        grid-template-columns: repeat(2, 250px);
+    }
+
+    .services__content {
+        padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    }
+
+    .services__icon {
+        font-size: 1.5rem;
+    }
+  }
+    
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .services__container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .services__content {
+        padding-right: 6rem;
+    }
+  }
