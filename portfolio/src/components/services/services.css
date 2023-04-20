@@ -5,7 +5,7 @@
 }
 
 .services__content {
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     background-origin: var(--container-color);
     padding: 2rem 2rem 2rem 2rem;
 }
