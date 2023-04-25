@@ -7,7 +7,7 @@ const Data = () => {
             <h3 className="home__subtitle">Desenvolvedora Web</h3>
             <p className="home__description">Desenvolvedora fullstack com ênfase no Front-end. Sou dedicada, curiosa e apaixonada pelo mundo da tecnologia</p>
 
-            <a href="#contato" className="button button--flex">Entre em contato
+            <a href="#contact" className="button button--flex">Entre em contato
             <svg
                   class="button__icon"
                   xmlns="http://www.w3.org/2000/svg"
