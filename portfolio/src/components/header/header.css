@@ -42,11 +42,6 @@
     display: none;
 }
 
-.nav__icon:active {
-    outline: none;
-    text-decoration: none;
-}
-
 /* Active Link */
 .active-link,
 .nav__link:hover {
