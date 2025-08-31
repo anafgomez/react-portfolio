@@ -1,30 +1,106 @@
-# React + TypeScript + Vite
+# Portfólio Ana Gomez
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um portfólio moderno e responsivo desenvolvido em React com TypeScript.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **TypeScript** - Superset do JavaScript com tipagem estática
+- **Vite** - Build tool rápida e moderna
+- **CSS3** - Estilização com animações e responsividade
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Design Responsivo** - Adaptável para desktop, tablet e mobile
+- **Navegação Suave** - Scroll suave entre seções
+- **Animações** - Efeitos visuais modernos e interativos
+- **Formulário de Contato** - Formulário funcional para envio de mensagens
+- **Seções Completas**:
+  - Hero com apresentação
+  - Sobre mim
+  - Habilidades com barras de progresso
+  - Qualificações com timeline
+  - Serviços oferecidos
+  - Portfólio de projetos
+  - Formulário de contato
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Como Executar
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+1. **Clone o repositório**
+   ```bash
+   git clone [url-do-repositorio]
+   cd react-portfolio
+   ```
+
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
+
+3. **Execute o projeto**
+   ```bash
+   npm run dev
+   ```
+
+4. **Acesse no navegador**
+   ```
+   http://localhost:5173
+   ```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/
+│   ├── Header.tsx          # Navegação principal
+│   ├── Hero.tsx           # Seção de apresentação
+│   ├── Sobre.tsx          # Seção sobre mim
+│   ├── Skills.tsx         # Habilidades técnicas
+│   ├── Qualificacoes.tsx  # Educação e experiência
+│   ├── Servicos.tsx       # Serviços oferecidos
+│   ├── Portfolio.tsx      # Projetos realizados
+│   ├── Contato.tsx        # Formulário de contato
+│   ├── Footer.tsx         # Rodapé
+│   └── *.css              # Estilos dos componentes
+├── App.tsx                # Componente principal
+├── App.css               # Estilos globais
+├── main.tsx              # Ponto de entrada
+└── vite-env.d.ts         # Tipos do Vite
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## 📱 Responsividade
+
+O portfólio é totalmente responsivo com breakpoints em:
+- **Desktop**: > 768px
+- **Tablet**: 768px
+- **Mobile**: < 768px
+
+
+## 🚀 Deploy
+
+Para fazer o deploy:
+
+1. **Build do projeto**
+   ```bash
+   npm run build
+   ```
+
+2. **Deploy no Vercel/Netlify**
+- Conecte seu repositório
+- Configure o build command: `npm run build`
+- Configure o output directory: `dist`
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar conforme necessário.
+
+## 👤 Contato
+
+**Ana Gomez**
+- Email: csoanaufscar@outlook.com
+- WhatsApp: (16) 99452-8229
+- Localização: São Carlos - SP
+
+---
+
+Desenvolvido com ❤️ por Ana Gomez
