@@ -19,9 +19,9 @@ const Footer: React.FC = () => {
             <button onClick={() => document.getElementById('servicos')?.scrollIntoView({ behavior: 'smooth' })}>
               Serviços
             </button>
-            <button onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}>
+           {/* <button onClick={() => document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' })}>
               Portfolio
-            </button>
+            </button>*/}
             <button onClick={() => document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' })}>
               Contato
             </button>
