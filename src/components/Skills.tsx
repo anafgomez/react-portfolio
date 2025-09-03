@@ -12,8 +12,8 @@ const Skills: React.FC = () => {
     { name: 'HTML5', percentage: 90, icon: 'fab fa-html5' },
     { name: 'CSS3', percentage: 85, icon: 'fab fa-css3-alt' },
     { name: 'JavaScript', percentage: 75, icon: 'fab fa-js-square' },
-    { name: 'React', percentage: 75, icon: 'fab fa-react' },
-    { name: 'TypeScript', percentage: 70, icon: 'fas fa-code' },
+    { name: 'React', percentage: 65, icon: 'fab fa-react' },
+    { name: 'TypeScript', percentage: 65, icon: 'fas fa-code' },
     { name: 'Figma', percentage: 65, icon: 'fab fa-figma' }
   ];
 
