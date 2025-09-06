@@ -62,7 +62,7 @@ const Sobre: React.FC = () => {
           <div className="sobre-image">
             <img 
               src="/profile.jpg" 
-              alt="Ana Gomez - Desenvolvedora Web" 
+              alt="Ana Gomez - Desenvolvedora Web Fullstack" 
               className="profile-image"
             />
             <div className="image-overlay">

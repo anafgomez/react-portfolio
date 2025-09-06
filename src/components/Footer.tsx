@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div className="footer-content">
           <div className="footer-info">
             <h3>Ana Gomez</h3>
-            <p>Desenvolvedora Web</p>
+            <p>Desenvolvedora Web Fullstack</p>
           </div>
           
           <div className="footer-links">

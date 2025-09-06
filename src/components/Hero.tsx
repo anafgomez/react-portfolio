@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
           <h1 className="hero-title">
             Oi! Eu sou a <span className="highlight">Ana</span>
           </h1>
-          <h2 className="hero-subtitle">Desenvolvedora Web</h2>
+          <h2 className="hero-subtitle">Desenvolvedora Web Fullstack</h2>
           <p className="hero-description">
             Possuo experiência em frontend, backend e desenvolvimento de software. 
             Além disso, procuro sempre prezar pelo conceito de clean code nos meus trabalhos.
